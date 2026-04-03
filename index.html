@@ -75,228 +75,324 @@
     <!-- This is the table-of-content component use to define all of the link directly to each section -->
     <div class="table-of-content">
       <h2>Table of Contents</h2>
-      <sl-tree>
-
-        <!-- Acknowledgements -->
-        <sl-tree-item expanded>
-          <a href="#acknowledgements">Acknowledgements.</a>
-        </sl-tree-item>
-
-        <!-- List of Acronyms -->
-        <sl-tree-item expanded>
-          <a href="#list-of-acronyms">List of Acronyms</a>
-        </sl-tree-item>
-
-        <!-- 1. Introduction -->
-        <sl-tree-item expanded>
-          <a href="#section-header-1">1. Introduction</a>
-          <sl-tree-item>
-            <a href="#sub-section-1-header-1">1.1 E2W Market</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-1-header-2">1.2 Industry Partner: Red Dot Mobility</a>
-          </sl-tree-item>
-        </sl-tree-item>
-
-        <!-- 2. Problem Definition and Objectives -->
-        <sl-tree-item expanded>
-          <a href="#section-header-2">2. Problem Definition and Objectives</a>
-          <sl-tree-item>
-            <a href="#sub-section-2-header-1">2.1 Low-Speed Instability</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-2-header-2">2.2 Dense Traffic</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-2-header-3">2.3 Problem Statement</a>
-          </sl-tree-item>
-        </sl-tree-item>
-
-        <!-- 3. Value Proposition -->
-        <sl-tree-item expanded>
-          <a href="#section-header-3">3. Value Proposition</a>
-          <sl-tree-item>
-            <a href="#sub-section-3-header-1">3.1 Value Proposition Canvas</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-3-header-2">3.2 Value Proposition Statement</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-3-header-3">3.3 Objectives and Scope</a>
-          </sl-tree-item>
-        </sl-tree-item>
-
-        <!-- 4. Design Statement / Methodology -->
-        <sl-tree-item expanded>
-          <a href="#section-header-4">4. Design Statement / Methodology</a>
-          <sl-tree-item>
-            <a href="#sub-section-4-header-1">4.1 Design Statement</a>
-          </sl-tree-item>
-          <sl-tree-item expanded>
-            <a href="#sub-section-4-header-2">4.2 Design Methodology</a>
-            <sl-tree-item>
-              <a href="#sub-section-4-2-1">4.2.1 Current Low-Speed Stability Solutions</a>
-            </sl-tree-item>
-            <sl-tree-item>
-              <a href="#sub-section-4-2-2">4.2.2 Industry Landscape</a>
-            </sl-tree-item>
-          </sl-tree-item>
-        </sl-tree-item>
-
-        <!-- 5. Concept Selection and Design Solution -->
-        <sl-tree-item expanded>
-          <a href="#section-header-5">5. Concept Selection and Design Solution</a>
-          <sl-tree-item expanded>
-            <a href="#sub-section-5-header-1">5.1 Concept Selection</a>
-            <sl-tree-item>
-              <a href="#sub-section-5-1-1">5.1.1 Selection Criteria</a>
-            </sl-tree-item>
-            <sl-tree-item>
-              <a href="#sub-section-5-1-2">5.1.2 Selection Rationale</a>
-            </sl-tree-item>
-          </sl-tree-item>
-          <sl-tree-item expanded>
-            <a href="#sub-section-5-header-2">5.2 Design Solution</a>
-            <sl-tree-item>
-              <a href="#sub-section-5-2-1">5.2.1 Inverted Pendulum Model</a>
-            </sl-tree-item>
-            <sl-tree-item>
-              <a href="#sub-section-5-2-2">5.2.2 DC Motor Model</a>
-            </sl-tree-item>
-            <sl-tree-item>
-              <a href="#sub-section-5-2-3">5.2.3 IWP Model</a>
-            </sl-tree-item>
-            <sl-tree-item>
-              <a href="#sub-section-5-2-4">5.2.4 PID</a>
-            </sl-tree-item>
-          </sl-tree-item>
-        </sl-tree-item>
-
-        <!-- 6. Prototyping -->
-        <sl-tree-item expanded>
-          <a href="#section-header-6">6. Prototyping</a>
-          <sl-tree-item>
-            <a href="#sub-section-6-header-1">6.1 Prototype Overview</a>
-          </sl-tree-item>
-          <sl-tree-item expanded>
-            <a href="#sub-section-6-header-2">6.2 Hardware Design Specifications and Features</a>
-            <sl-tree-item>
-              <a href="#sub-section-6-2-1">6.2.1 RC Model Specifications</a>
-            </sl-tree-item>
-            <sl-tree-item>
-              <a href="#sub-section-6-2-2">6.2.2 Hardware</a>
-            </sl-tree-item>
-          </sl-tree-item>
-          <sl-tree-item expanded>
-            <a href="#sub-section-6-header-3">6.3 Software Design Specifications and Features</a>
-            <sl-tree-item>
-              <a href="#sub-section-6-3-1">6.3.1 Code Analysis</a>
-            </sl-tree-item>
-            <sl-tree-item>
-              <a href="#sub-section-6-3-2">6.3.2 Software Techniques</a>
-            </sl-tree-item>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-6-header-4">6.4 Development Process</a>
-          </sl-tree-item>
-        </sl-tree-item>
-
-        <!-- 7. Testing -->
-        <sl-tree-item expanded>
-          <a href="#section-header-7">7. Testing</a>
-          <sl-tree-item expanded>
-            <a href="#sub-section-7-header-1">7.1 Objectives of Testing</a>
-            <sl-tree-item>
-              <a href="#sub-section-7-header-2">7.1.1 Rationale of Equipment</a>
-            </sl-tree-item>
-          </sl-tree-item>
-
-          <sl-tree-item expanded>
-            <a href="#sub-section-7-header-3">7.2 Test Setup and Results Analysis</a>
-            <sl-tree-item>
-              <a href="#sub-section-7-2-1">7.2.1 Test 1: Bike CG</a>
-            </sl-tree-item>
-            <sl-tree-item>
-              <a href="#sub-section-7-2-2">7.2.2 Test 2: Weight</a>
-            </sl-tree-item>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-7-header-4">7.3 Evaluation of Testing Methods</a>
-          </sl-tree-item>
-        </sl-tree-item>
-
-        <!-- 8. Fulfilment of Deliverables -->
-        <sl-tree-item expanded>
-          <a href="#section-header-8">8. Fulfilment of Deliverables</a>
-          <sl-tree-item>
-            <a href="#sub-section-8-header-1">8.1 Summary of Intended Deliverables</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-8-header-2">8.2 Achieved Outcomes to Date</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-8-header-3">8.3 Assessment of Progress</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-8-header-4">8.4 Potential to Meet Final Deliverables</a>
-          </sl-tree-item>
-        </sl-tree-item>
-
-        <!-- 9. Limitations, Shortcomings, and Improvements -->
-        <sl-tree-item expanded>
-          <a href="#section-header-9">9. Limitations, Shortcomings, and Improvements</a>
-          <sl-tree-item>
-            <a href="#sub-section-9-header-1">9.1 Identified Shortcomings and Gaps</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-9-header-2">9.2 Proposed Solutions and Workarounds</a>
-          </sl-tree-item>
-        </sl-tree-item>
-
-        <!-- 10. Project Plan -->
-        <sl-tree-item expanded>
-          <a href="#section-header-10">10. Project Plan</a>
-          <sl-tree-item>
-            <a href="#sub-section-10-header-1">10.1 Remaining Tasks and Work Packages</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#sub-section-10-header-2">10.2 Timeline and Milestones</a>
-          </sl-tree-item>
-        </sl-tree-item>
-
-        <!-- Appendix A -->
-        <sl-tree-item expanded>
-          <a href="#appendix-a">Appendix A: Interview Responses</a>
-        </sl-tree-item>
-
-        <!-- Appendix B -->
-        <sl-tree-item expanded>
-          <a href="#appendix-b">Appendix B: Industry Landscape</a>
-        </sl-tree-item>
-
-        <!-- Appendix C -->
-        <sl-tree-item expanded>
-          <a href="#appendix-c">Appendix C: Concept Selection</a>
-        </sl-tree-item>
-
-        <!-- Appendix D -->
-        <sl-tree-item expanded>
-          <a href="#appendix-d">Appendix D: Hardware and Software</a>
-        </sl-tree-item>
-
-        <!-- Appendix E -->
-        <sl-tree-item expanded>
-          <a href="#appendix-e">Appendix E: Testing results</a>
-        </sl-tree-item>
-
-        <!-- Appendix F -->
-        <sl-tree-item expanded>
-          <a href="#appendix-f">Appendix F: Future work</a>
-        </sl-tree-item>
-
-        <!-- References -->
+            <sl-tree>
         <sl-tree-item>
-          <a href="#references">References</a>
+          <a href="#anchor-acknowledgements">Acknowledgements.</a>
+        </sl-tree-item>
+        <sl-tree-item>
+          <a href="#anchor-table-of-contents">Table of Contents.</a>
+        </sl-tree-item>
+        <sl-tree-item>
+          <a href="#anchor-list-of-acronyms">List of Acronyms.</a>
+        </sl-tree-item>
+        <sl-tree-item>
+          <a href="#anchor-list-of-figures">List of Figures.</a>
+        </sl-tree-item>
+        <sl-tree-item>
+          <a href="#anchor-list-of-tables">List of Tables.</a>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="#anchor-1-introduction">1. Introduction.</a>
+          <sl-tree-item>
+            <a href="#anchor-1-1-e2w-market">1.1 E2W Market</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#anchor-1-2-industry-partner-red-dot-mobility">1.2 Industry Partner: Red Dot Mobility</a>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="#anchor-2-problem-definition-and-objectives">2. Problem Definition and Objectives.</a>
+          <sl-tree-item>
+            <a href="#anchor-2-1-problem-statement">2.1 Problem Statement</a>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="#anchor-3-value-proposition">3. Value Proposition.</a>
+          <sl-tree-item>
+            <a href="#anchor-3-1-value-proposition-statement">3.1 Value Proposition Statement.</a>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="#anchor-4-design-methodology-and-concept-development">4. Design Methodology and Concept Development.</a>
+          <sl-tree-item>
+            <a href="#anchor-4-1-design-statement">4.1 Design Statement</a>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#anchor-4-2-design-solution">4.2 Design Solution</a>
+            <sl-tree-item>
+              <a href="#anchor-4-2-1-iwp-model">4.2.1 IWP model</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-4-2-2-linear-quadratic-regulator">4.2.2 Linear Quadratic Regulator</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-4-2-3-1st-prototype-rc-bike">4.2.3 1st Prototype (RC-Bike)</a>
+            </sl-tree-item>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="#anchor-5-prototyping">5. Prototyping.</a>
+          <sl-tree-item expanded>
+            <a href="#anchor-5-1-prototype-design-overview">5.1 Prototype Design Overview</a>
+            <sl-tree-item>
+              <a href="#anchor-5-1-1-technical-requirements-and-system-objectives">5.1.1 Technical Requirements and System Objectives</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-5-1-2-bill-of-materials-bom">5.1.2 Bill-of-Materials (BOM)</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#anchor-5-2-mechanical-system">5.2 Mechanical System</a>
+            <sl-tree-item>
+              <a href="#anchor-5-2-1-frame-and-structural-components">5.2.1 Frame and Structural Components</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-5-2-2-reaction-wheel-module-assembly-and-components">5.2.2 Reaction Wheel Module (Assembly and Components)</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#anchor-5-3-electrical-system-implementation">5.3 Electrical System Implementation</a>
+            <sl-tree-item>
+              <a href="#anchor-5-3-1-motor-controller-selection">5.3.1 Motor Controller Selection</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-5-3-2-power-system-design">5.3.2 Power System Design</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#anchor-5-4-embedded-system-development">5.4 Embedded System Development</a>
+            <sl-tree-item>
+              <a href="#anchor-5-4-1-microcontroller-mcu-selection">5.4.1 Microcontroller (MCU) Selection</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-5-4-2-sensor-integration">5.4.2 Sensor Integration</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-5-4-3-firmware-development">5.4.3 Firmware Development</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#anchor-5-5-software-and-code-architecture">5.5 Software and Code Architecture</a>
+            <sl-tree-item>
+              <a href="#anchor-5-5-1-lqr-computation">5.5.1 LQR Computation</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-5-5-2-code-architecture">5.5.2 Code Architecture</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#anchor-5-6-iterative-prototype-development">5.6 Iterative Prototype Development</a>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="#anchor-6-testing-and-experimental-setup">6. Testing and Experimental Setup.</a>
+          <sl-tree-item>
+            <a href="#anchor-6-1-objectives-and-scope-of-testing">6.1 Objectives and Scope of Testing</a>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#anchor-6-2-experimental-setup">6.2 Experimental Setup</a>
+            <sl-tree-item>
+              <a href="#anchor-6-2-1-mechanical-configuration">6.2.1 Mechanical Configuration</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-6-2-2-electronics-and-integration">6.2.2 Electronics and Integration</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-6-2-3-stabilisation-and-safety-measures">6.2.3 Stabilisation and Safety Measures</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-6-2-4-testing-environment">6.2.4 Testing Environment</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#anchor-6-3-testing-methodology">6.3 Testing Methodology</a>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#anchor-6-4-prototype-testing-procedures">6.4 Prototype Testing Procedures</a>
+            <sl-tree-item>
+              <a href="#anchor-6-4-1-phase-1-k-matrix-gains-test">6.4.1 Phase 1: K-matrix gains test</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-6-4-2-phase-2-tuning-pwm-min-run">6.4.2 Phase 2: Tuning ‘PWM_MIN_RUN’</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-6-4-2-phase-3-finding-the-emi-limit-tuning-pwm-step">6.4.2 Phase 3: Finding the EMI Limit (Tuning ‘PWM_STEP’)</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-6-4-3-phase-4-controller-authority-tuning-lqr-scale-factor">6.4.3 Phase 4: Controller Authority (Tuning ‘LQR_SCALE_FACTOR’)</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-6-4-4-phase-5-reversal-braking-timing-tuning-reverse-brake-hold-ms">6.4.4 Phase 5: Reversal Braking Timing (Tuning 'REVERSE_BRAKE_HOLD_MS')</a>
+            </sl-tree-item>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="#anchor-7-results-and-analysis">7. Results and Analysis.</a>
+          <sl-tree-item>
+            <a href="#anchor-7-1-data-collection-and-processing">7.1 Data Collection and Processing</a>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#anchor-7-2-system-performance-analysis-and-evaluation">7.2 System Performance Analysis and Evaluation</a>
+            <sl-tree-item>
+              <a href="#anchor-7-2-1-tuned-parameter-summary">7.2.1 Tuned Parameter Summary</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-7-2-2-phase-1-lqr-gain-matrix-k-matrix-selection">7.2.2  Phase 1: LQR Gain Matrix (K-Matrix) Selection</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-7-2-3-phase-2-motor-deadband-elimination-pwm-min-run">7.2.3  Phase 2: Motor Deadband Elimination (PWM_MIN_RUN)</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-7-2-4-phase-3-emi-threshold-identification-pwm-step">7.2.4  Phase 3: EMI Threshold Identification (PWM_STEP)</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-7-2-5-phase-4-controller-authority-lqr-scale-factor">7.2.5  Phase 4: Controller Authority (LQR_SCALE_FACTOR)</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-7-2-6-phase-5-reversal-braking-timing-reverse-brake-hold-ms">7.2.6  Phase 5: Reversal Braking Timing (REVERSE_BRAKE_HOLD_MS)</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#anchor-7-3-discussion-of-observed-trends">7.3 Discussion of Observed Trends</a>
+            <sl-tree-item>
+              <a href="#anchor-7-3-1-trend-1-overcurrent-during-rapid-reversals">7.3.1 Trend 1: Overcurrent during rapid reversals</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-7-3-2-trend-2-i2c-bus-crash-due-to-emi-overload">7.3.2 Trend 2: I2C bus crash due to EMI overload</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-7-3-3-trend-3-imu-and-i2c-bus-lag-under-motor-excitation">7.3.3 Trend 3: IMU and I2C Bus Lag Under Motor Excitation</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#anchor-7-4-comparison-with-theoretical-predictions">7.4 Comparison with Theoretical Predictions</a>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="#anchor-8-fulfilment-of-deliverables">8. Fulfilment of Deliverables.</a>
+          <sl-tree-item>
+            <a href="#anchor-8-1-intended-project-deliverables">8.1 Intended Project Deliverables</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#anchor-8-2-achieved-outcomes">8.2 Achieved Outcomes</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#anchor-8-3-evaluation-of-project-success">8.3 Evaluation of Project Success</a>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="#anchor-9-limitations-and-recommendations-for-future-work">9. Limitations and Recommendations for Future Work.</a>
+          <sl-tree-item expanded>
+            <a href="#anchor-9-1-identified-limitations-and-justifications">9.1 Identified Limitations and Justifications</a>
+            <sl-tree-item>
+              <a href="#anchor-9-1-1-absence-of-quantitative-data-logging">9.1.1  Absence of Quantitative Data Logging</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-9-1-2-simplified-dynamic-model">9.1.2  Simplified Dynamic Model</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-9-1-3-reaction-wheel-moment-of-inertia">9.1.3 Reaction Wheel Moment of Inertia</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#anchor-9-2-technical-challenges-encountered">9.2 Technical Challenges Encountered</a>
+            <sl-tree-item>
+              <a href="#anchor-9-2-1-i2c-bus-disruption-from-motor-emi">9.2.1  I2C Bus Disruption from Motor EMI</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-9-2-2-motor-overcurrent-during-rapid-direction-changes">9.2.2  Motor Overcurrent During Rapid Direction Changes</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-9-2-3-esp32-s3-firmware-upload-failures">9.2.3  ESP32-S3 Firmware Upload Failures</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-9-2-4-incomplete-motor-characterisation">9.2.4  Incomplete Motor Characterisation</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#anchor-9-3-recommended-improvements">9.3 Recommended Improvements</a>
+            <sl-tree-item>
+              <a href="#anchor-9-3-1-dedicated-serial-data-logger">9.3.1 Dedicated serial data logger</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-9-3-2-hardware-emc-mitigation">9.3.2 Hardware EMC mitigation</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-9-3-3-refined-system-identification">9.3.3 Refined system identification</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-9-3-4-higher-fidelity-dynamic-model">9.3.4 Higher-fidelity dynamic model</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-9-3-5-full-state-observer-kalman-filter">9.3.5 Full-state observer (Kalman filter)</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-9-3-6-esp32-upload-reliability-fix">9.3.6 ESP32 upload reliability fix</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-9-3-7-reaction-wheel-redesign">9.3.7 Reaction wheel redesign</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item expanded>
+            <a href="#anchor-9-4-future-development-opportunities">9.4 Future Development Opportunities</a>
+            <sl-tree-item>
+              <a href="#anchor-9-4-1-lateral-steering-and-forward-propulsion">9.4.1  Lateral Steering and Forward Propulsion</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#anchor-9-4-2-nonlinear-and-adaptive-control">9.4.2  Nonlinear and Adaptive Control</a>
+            </sl-tree-item>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="#anchor-10-impact-and-visibility">10. Impact and Visibility.</a>
+          <sl-tree-item>
+            <a href="#anchor-10-1-potential-applications-for-real-world-implementation">10.1 Potential Applications for Real-World Implementation</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#anchor-10-2-contribution-to-engineering-knowledge">10.2 Contribution to Engineering Knowledge</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#anchor-10-3-opportunities-for-further-research-and-development">10.3 Opportunities for Further Research and Development</a>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="#anchor-appendix-a-mathematical-derivations">Appendix A: Mathematical Derivations</a>
+          <sl-tree-item>
+            <a href="#anchor-1-inverted-pendulum-model-of-bicycle-dynamics">1. Inverted Pendulum Model of Bicycle Dynamics</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#anchor-2-dc-motor-model">2. DC motor model</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#anchor-3-state-space-of-dynamic-system">3. State Space of Dynamic System</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#anchor-4-linear-quadratic-regulator">4. Linear Quadratic Regulator</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="#anchor-5-motor-torque-requirement-calculations">5. Motor Torque Requirement Calculations:</a>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="#anchor-appendix-b-control-system-parameters">Appendix B: Control System Parameters</a>
+          <sl-tree-item>
+            <a href="#anchor-1-lqr-computation">1. LQR Computation</a>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item>
+          <a href="#anchor-appendix-c-hardware-schematics">Appendix C: Hardware Schematics</a>
+        </sl-tree-item>
+        <sl-tree-item>
+          <a href="#anchor-appendix-d-firmware-architecture">Appendix D: Firmware Architecture</a>
+        </sl-tree-item>
+        <sl-tree-item>
+          <a href="#anchor-appendix-e-testing-data">Appendix E: Testing Data</a>
+        </sl-tree-item>
+        <sl-tree-item>
+          <a href="#anchor-appendix-f-project-timeline">Appendix F: Project Timeline</a>
+        </sl-tree-item>
+        <sl-tree-item>
+          <a href="#anchor-references">References.</a>
         </sl-tree-item>
       </sl-tree>
     </div>
